@@ -9,10 +9,13 @@
 /* Begin PBXBuildFile section */
 		A591D9181E281DD300D1335F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A591D9171E281DD300D1335F /* main.m */; };
 		A591D91B1E281DD300D1335F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A591D91A1E281DD300D1335F /* AppDelegate.m */; };
-		A591D91E1E281DD300D1335F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A591D91D1E281DD300D1335F /* ViewController.m */; };
+		A591D91E1E281DD300D1335F /* ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = A591D91D1E281DD300D1335F /* ViewController.mm */; };
 		A591D9211E281DD300D1335F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A591D91F1E281DD300D1335F /* Main.storyboard */; };
 		A591D9231E281DD300D1335F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A591D9221E281DD300D1335F /* Assets.xcassets */; };
 		A591D9261E281DD300D1335F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A591D9241E281DD300D1335F /* LaunchScreen.storyboard */; };
+		A591D92F1E281E3100D1335F /* tessdata in Resources */ = {isa = PBXBuildFile; fileRef = A591D92D1E281E3100D1335F /* tessdata */; };
+		A591D9301E281E3100D1335F /* TesseractOCR.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A591D92E1E281E3100D1335F /* TesseractOCR.framework */; };
+		A591D9321E281EDC00D1335F /* Thursdays.png in Resources */ = {isa = PBXBuildFile; fileRef = A591D9311E281EDC00D1335F /* Thursdays.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,11 +24,14 @@
 		A591D9191E281DD300D1335F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A591D91A1E281DD300D1335F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		A591D91C1E281DD300D1335F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		A591D91D1E281DD300D1335F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A591D91D1E281DD300D1335F /* ViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ViewController.mm; sourceTree = "<group>"; };
 		A591D9201E281DD300D1335F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A591D9221E281DD300D1335F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A591D9251E281DD300D1335F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A591D9271E281DD300D1335F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A591D92D1E281E3100D1335F /* tessdata */ = {isa = PBXFileReference; lastKnownFileType = folder; path = tessdata; sourceTree = "<group>"; };
+		A591D92E1E281E3100D1335F /* TesseractOCR.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TesseractOCR.framework; sourceTree = "<group>"; };
+		A591D9311E281EDC00D1335F /* Thursdays.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Thursdays.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +39,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A591D9301E281E3100D1335F /* TesseractOCR.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,11 +68,14 @@
 				A591D9191E281DD300D1335F /* AppDelegate.h */,
 				A591D91A1E281DD300D1335F /* AppDelegate.m */,
 				A591D91C1E281DD300D1335F /* ViewController.h */,
-				A591D91D1E281DD300D1335F /* ViewController.m */,
+				A591D91D1E281DD300D1335F /* ViewController.mm */,
 				A591D91F1E281DD300D1335F /* Main.storyboard */,
 				A591D9221E281DD300D1335F /* Assets.xcassets */,
 				A591D9241E281DD300D1335F /* LaunchScreen.storyboard */,
 				A591D9271E281DD300D1335F /* Info.plist */,
+				A591D9311E281EDC00D1335F /* Thursdays.png */,
+				A591D92D1E281E3100D1335F /* tessdata */,
+				A591D92E1E281E3100D1335F /* TesseractOCR.framework */,
 				A591D9161E281DD300D1335F /* Supporting Files */,
 			);
 			path = MeetupDemo;
@@ -138,7 +148,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A591D9321E281EDC00D1335F /* Thursdays.png in Resources */,
 				A591D9261E281DD300D1335F /* LaunchScreen.storyboard in Resources */,
+				A591D92F1E281E3100D1335F /* tessdata in Resources */,
 				A591D9231E281DD300D1335F /* Assets.xcassets in Resources */,
 				A591D9211E281DD300D1335F /* Main.storyboard in Resources */,
 			);
@@ -151,7 +163,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A591D91E1E281DD300D1335F /* ViewController.m in Sources */,
+				A591D91E1E281DD300D1335F /* ViewController.mm in Sources */,
 				A591D91B1E281DD300D1335F /* AppDelegate.m in Sources */,
 				A591D9181E281DD300D1335F /* main.m in Sources */,
 			);
@@ -272,6 +284,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 4K3RZ7GC4T;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MeetupDemo",
+				);
 				INFOPLIST_FILE = MeetupDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.marchampson.MeetupDemo;
@@ -284,6 +300,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 4K3RZ7GC4T;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MeetupDemo",
+				);
 				INFOPLIST_FILE = MeetupDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.marchampson.MeetupDemo;
